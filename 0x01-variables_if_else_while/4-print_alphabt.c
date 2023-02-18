@@ -6,11 +6,11 @@
  */
 int main(void)
 {
-	char c = '1';
+	char c = 'a';
 
-	while (c <= '10')
+	while (c <= 'z')
 	{
-		if (c != '3' && c != '5')
+		if (c != 'q' && c != 'e')
 		{
 			putchar(c);
 		}
@@ -19,3 +19,23 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
